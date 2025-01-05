@@ -1,0 +1,6 @@
+@inproceedings{REPO346,
+    author = "Potlapalli, Vaishnav and Zamir, Syed Waqas and Khan, Salman and Khan, Fahad",
+    booktitle = "Thirty-seventh Conference on Neural Information Processing Systems",
+    title = "{PromptIR: Prompting for All-in-One Image Restoration}",
+    year = "2023"
+}
