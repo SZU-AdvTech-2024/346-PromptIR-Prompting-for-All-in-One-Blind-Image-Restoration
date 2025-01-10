@@ -1,0 +1,7 @@
+# 使用ffmpeg制造crf压缩的指令
+
+# 设置高crf压缩：
+ffmpeg -framerate 25 -i ./original_frames/%05d.jpg -c:v libx264 -crf 30 -pix_fmt yuv420p compressed.mp4
+
+# 输出帧
+ffmpeg -i ./compressed.mp4 -start_number 0 ./crf_frames/%05d.png
